@@ -1,0 +1,30 @@
+@media screen and (min-width: 320px) and (max-width: 575.98px) {
+  .post-feed {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .post-feed .post-card .post-card-footer {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+  .post-feed {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .post-feed .post-card {
+    width: 47%;
+  }
+  .post-feed .post-card .post-card-footer {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023.98px) {
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+}

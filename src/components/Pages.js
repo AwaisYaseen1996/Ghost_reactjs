@@ -6,6 +6,7 @@ import Author from './Author';
 import About from './About'
 import Header from './Header';
 import Footer from './Footer';
+import './responsive.css'
 
 const Pages = () => {
     return (
